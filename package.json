@@ -1,0 +1,14 @@
+{
+  "name": "aegispay",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Security-focused sandbox payment gateway by brunnodev.store",
+  "engines": { "node": ">=24.15.0 <25" },
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "start": "node --env-file=.env src/server.mjs",
+    "test": "node --test",
+    "demo": "node --env-file=.env scripts/demo.mjs"
+  }
+}
